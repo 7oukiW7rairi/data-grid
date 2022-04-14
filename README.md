@@ -1,7 +1,7 @@
 # Data Grid plugin
 VanillaJS data table plugin
 
-`DataGrid` is dynamic table for presenting large and complex data.  It has all the features you would expect from any other table but in a light package with _no external dependencies_. The table was designed to be extremely flexible and light.
+`DataGrid` is dynamic table for presenting large data.  It has all the features you would expect from a table but in a light package with _no external dependencies_. The table was designed to be flexible and light.
 
 It was built for modern browsers and internet explorer 10+ using Javascript, CSS3 and HTML5.
 

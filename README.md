@@ -1,19 +1,18 @@
 # Data Grid plugin
-VanillaJS data table plugin
+Native JAVASCRIPT data table
 
 `DataGrid` is dynamic table for presenting large data.  It has all the features you would expect from a table but in a light package with _no external dependencies_. The table was designed to be flexible and light.
 
 It was built for modern browsers and internet explorer 10+ using Javascript, CSS3 and HTML5.
-
+As usual this is not a Plugin and there's no NPM module for it, if you want to use it you will need to get your hands dirty(with the code).
 
 ## Features
 - Fetch data from server
 - Handle large data sets
-- Expressive Header and Cell Templates
 - Horizontal & Vertical Scrolling
 - Column Reordering & Resizing  (in progress)
-- Integrated Pager
-- Row Selection ( Single, Multi, Checkbox )
+- Integrated Pager (in progress)
+- Row Selection ( Single, Multi )
 - Fixed AND Fluid height
 - Left and Right Column Pinning
 - Light codebase / No external dependencies
@@ -200,7 +199,7 @@ The following list of column options are supported by the library. Configure the
 | colspan | number | the value of colspan Attribute for the columne.| null |
 
 ### Events
-- table id +`_Draw` - fire when you reload the table oany time you change all the table data.
+- table id +`_Draw` - fire when you reload the table.
 - table id + `_Ready` - fire when the table is fully completed.
 - table id + `_RowSelected` - fire each time you select row if selectRow option is enabled.
 - table id + `_RowAdded` - fire each time a row is added to the table.
